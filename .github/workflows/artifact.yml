@@ -27,7 +27,7 @@ jobs:
       - name: Download the text file
         uses: actions/download-artifact@v8
         with: 
-          name: hello-artifact
+          name: ./artifacts/hello-artifact
       
       - name: Display the content file
         run: cat hello.txt
